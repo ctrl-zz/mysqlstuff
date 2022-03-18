@@ -1,0 +1,14 @@
+--there shoule be two tables after the normalization 
+--table 1: ID NAME PHONE
+CREATE TABLE Studentinfo AS
+SELECT `Student ID`,`Student Name`, Phone
+FROM APOS;
+
+CREATE TABLE SI AS SELECT DISTINCT * FROM Studentinfo;
+
+--table 2: ID Course Points
+CREATE TABLE Pointsinfo AS
+SELECT `Student ID`,Course, Points
+FROM APOS;
+
+SELECT * FROM Pointsinfo;

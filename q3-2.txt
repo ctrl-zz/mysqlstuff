@@ -1,0 +1,10 @@
+	
+
+SELECT name, Course, AVG(Points) AS `avg (points)`
+FROM(
+SELECT `Student Name` AS name, Course, Points
+FROM SI JOIN Pointsinfo
+ON SI.`Student ID`=Pointsinfo.`Student ID`) AS temp
+GROUP BY name, Course
+ORDER BY name;
+

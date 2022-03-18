@@ -1,0 +1,119 @@
+-- create database
+CREATE DATABASE q3;
+USE q3;
+
+-- create table
+CREATE TABLE APOS ( 
+   `Student ID`         VARCHAR(5), 
+   `Student Name`       VARCHAR(50), 
+   Phone                VARCHAR(10), 
+   Course               VARCHAR(20), 
+   Points               INT UNSIGHNED
+   );
+
+-- load data
+ 
+INSERT INTO APOS 
+VALUES (
+    '00012',
+    'John Smith',
+    '902-5556',
+    'Mathematics',
+    86
+);
+INSERT INTO APOS 
+VALUES (
+    '00014',
+    'Raj Sharma',
+    '902-8596',
+    'Mathematics',
+    75
+);
+INSERT INTO APOS 
+VALUES (
+    '00016',
+    'Anan Obi',
+    '902-8974',
+    'Mathematics',
+    96
+);
+INSERT INTO APOS 
+VALUES (
+    '00016',
+    'Anan Obi',
+    '902-8974',
+    'Mathematics',
+    97
+);
+INSERT INTO APOS 
+VALUES (
+    '00015',
+    'Lee Wang',
+    '902-7845',
+    'Physics',
+    92
+);
+INSERT INTO APOS 
+VALUES (
+    '00015',
+    'Lee Wang',
+    '902-7845',
+    'Physics',
+    65
+);
+INSERT INTO APOS 
+VALUES (
+    '00012',
+    'John Smith',
+    '902-5556',
+    'Physics',
+    63
+);
+INSERT INTO APOS 
+VALUES (
+    '00016',
+    'Anan Obi',
+    '902-8974',
+    'Physics',
+    58
+);
+INSERT INTO APOS 
+VALUES (
+    '00014',
+    'Raj Sharma',
+    '902-8596',
+    'physics',
+    78
+);
+INSERT INTO APOS 
+VALUES (
+    '00014',
+    'Raj Sharma',
+    '902-8596',
+    'Chemistry',
+    83
+);
+INSERT INTO APOS 
+VALUES (
+    '00015',
+    'Lee Wang',
+    '902-7845',
+    'Chemistry',
+    65
+);
+INSERT INTO APOS 
+VALUES (
+    '00012',
+    'John Smith',
+    '902-5556',
+    'Chemistry',
+    95
+);
+INSERT INTO APOS 
+VALUES (
+    '00012',
+    'John Smith',
+    '902-5556',
+    'Chemistry',
+    90
+);
